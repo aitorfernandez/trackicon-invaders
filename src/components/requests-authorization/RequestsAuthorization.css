@@ -1,0 +1,39 @@
+.requests-authorization__btn
+{
+    margin: 6em 0;
+}
+
+.requests-authorization__showcase img
+{
+    width: 100%;
+    min-width: 560px;
+    max-width: 720px;
+}
+
+.btn
+{
+    font-size: 1.25em;
+
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    text-decoration: none;
+
+    color: #84bd00;
+}
+
+.btn--fill
+{
+    font-size: 1.25em;
+
+    padding: 16px 60px;
+
+    transition: .3s ease;
+
+    border: 1px solid #84bd00;
+}
+
+.btn--fill:hover
+{
+    background: rgba(132, 189, 0, .3);
+}

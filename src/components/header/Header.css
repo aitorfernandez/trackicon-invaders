@@ -1,0 +1,67 @@
+.header__title
+{
+    font-size: 2.5em;
+    font-weight: 300;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header__info
+{
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.header__info br
+{
+    margin: 5px 0;
+}
+
+.header__info a
+{
+    margin: 0 5px;
+    transition: color .3s ease;
+
+    color: rgba(132, 189, 0, .5);
+}
+
+.header__info a:hover
+{
+    color: rgba(132, 189, 0, .8);
+}
+
+.header__subtitle-info::before,
+.header__subtitle-how-to-play::before,
+.header__subtitle-source::before
+{
+    font-weight: 300;
+
+    position: absolute;
+
+    text-transform: uppercase;
+
+    color: rgba(230, 230, 230, .3);
+}
+
+.header__subtitle-info::before
+{
+  margin-left: -48px;
+
+  content: 'info';
+}
+
+.header__subtitle-how-to-play::before
+{
+  margin-left: -100px;
+
+  content: 'how to play';
+}
+
+.header__subtitle-source::before
+{
+  margin-left: -92px;
+
+  content: 'Repository';
+}

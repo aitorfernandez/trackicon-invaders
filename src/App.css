@@ -1,0 +1,10 @@
+.app
+{
+    position: relative;
+
+    width: 100%;
+    min-width: 560px;
+    max-width: 720px;
+    margin: 0 auto 12px;
+    padding: 24px 16px;
+}

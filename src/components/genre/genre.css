@@ -1,0 +1,32 @@
+select::-ms-expand
+{
+    display: none;
+}
+
+select
+{
+    font-size: 16px;
+
+    display: block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 272px;
+    height: 48px;
+    padding-left: 12px;
+
+    cursor: pointer;
+    letter-spacing: 1px;
+
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    background-color: #84bd00;
+    background-image: url('./down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: top 16px right 10px;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+}

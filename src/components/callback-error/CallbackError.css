@@ -1,0 +1,27 @@
+.callback-error
+{
+    margin: 4em 0;
+}
+
+.callback-error__info
+{
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 18px;
+
+    color: #84bd00;
+}
+
+.callback-error__info::before
+{
+    font-weight: 300;
+
+    position: absolute;
+
+    margin-left: -48px;
+
+    content: 'error';
+    text-transform: uppercase;
+
+    color: rgba(230, 230, 230, .3);
+}

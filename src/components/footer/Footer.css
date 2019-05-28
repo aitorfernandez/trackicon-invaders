@@ -1,0 +1,30 @@
+.footer
+{
+    text-align: center;
+}
+
+.footer__nav p
+{
+    color: rgba(230, 230, 230, .5);
+}
+
+.footer__nav
+{
+    display: block;
+
+    padding: 1.5em;
+}
+
+.footer__nav a
+{
+    margin: 0 8px;
+
+    transition: color .3s ease;
+
+    color: rgba(230, 230, 230, .5);
+}
+
+.footer__nav a:hover
+{
+    color: rgba(230, 230, 230, .8);
+}
